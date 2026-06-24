@@ -1,59 +1,70 @@
 # AI-Powered Job Search & Decision Support Framework
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Role-Klinik--Sosyal%20Analist-blue?style=for-the-badge&labelColor=111111" alt="Role">
+  
   <img src="https://img.shields.io/badge/Architecture-Decision%20Support%20Systems-orange?style=for-the-badge&labelColor=111111" alt="Architecture">
-  <img src="https://img.shields.io/badge/Security-Data%20Privacy%20Secure-green?style=for-the-badge&labelColor=111111" alt="Security">
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Google_Gemini-4285F4?style=flat-square&logo=google-gemini&logoColor=white" alt="Google Gemini">
   <img src="https://img.shields.io/badge/Microsoft_Excel-217346?style=flat-square&logo=microsoft-excel&logoColor=white" alt="Excel">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub">
   <img src="https://img.shields.io/badge/Markdown-000000?style=flat-square&logo=markdown&logoColor=white" alt="Markdown">
-  <img src="https://img.shields.io/badge/MIT_License-neutral?style=flat-square" alt="License">
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Methodology-Google%20AI%20Career%20Navigation-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Google Method">
+  <img src="https://img.shields.io/badge/Knowledge%20Base-Obsidian%20%2F%20Markdown-7C3AED?style=for-the-badge&logo=obsidian&logoColor=white" alt="Obsidian">
+  <img src="https://img.shields.io/badge/Framework-Modular%20Job%20Search-FF5722?style=for-the-badge" alt="Modular Framework">
 </p>
 
 ---
 
-## Project Overview
-This repository contains a structured, metrics-driven **Decision Support System (DSS)** and **Information Management Framework** designed to optimize, standardize, and accelerate career navigation operations. 
+Project & Documentation Overview
 
-By integrating AI-assisted *Prompt Engineering*, automated *Opportunity Tracking*, comprehensive *Company Research Workflows*, and *Data Analytics*, this framework transforms a highly qualitative and unstructured job search process into a quantitative, scalable, and predictable pipeline.
+Bu depo (*repository*), **Google Career - Accelerate Your Job Search with AI** metodolojisinden elde edilen teorik ve pratik içgörülerin, **Obsidian (.md)** mimarisiyle yapılandırılmış dinamik bir **Knowledge Base** (Bilgi Tabanı) ve **Decision Support System (DSS)** dökümantasyonudur[cite: 1]. 
 
----
-
-## Key Modules & Architecture
-
-The framework is architected into five standalone yet interconnected core components, managed via a high-performance *E-Sheet* data structure:
-
-1. **AI Prompt Library:** A centralized repository of advanced prompt architectures (V0.2 Core Templates) governing *Role Customization*, *Automated Invoicing Audits*, *Consumer Rights Strategy Simulations*, and *Executive Outreach Messaging*.
-2. **Application Tracking System (ATS Analytics):** A structured relational ledger monitoring opportunity states across critical data fields including `Application Status`, `Company Metrics`, `Job Description (JD) Keyword Vectors Vis-a-Vis Skills Gap`, and `Interviewer Persona Profiling`.
-3. **Interview Preparation Framework:** A behavioral and technical readiness matrix embedded with the **STAR Metodu** (Situation, Task, Action, Result) to simulate live interview loops with zero-hallucination data modeling.
-4. **Company Research Templates:** Information retrieval and data-mining structures designed to extract financial performance, corporate governance, tech stack compatibility (SAP, OCI, AI deployment), and operational bottlenecks of target enterprises.
-5. **Career Planning Workflows:** Modular, non-linear career navigation roadmaps focused on tracking milestone completions across advanced certifications.
+Sıradan bir ders notu dökümünden farklı olarak bu çalışma; iş analizi, veri bilimi ve yapay zeka entegrasyonu süreçlerinin kariyer navigasyonuna **parametrik** ve **modüler** olarak nasıl uygulanacağını gösteren canlı bir mühendislik rehberidir.
 
 ---
 
-## Tech Stack & Core Tools
-* **Core Computational Engine:** Google Gemini (Premium Tier API & Advanced Context Management)
-* **Knowledge Retrieval & Sandbox:** NotebookLM (Source-grounded Contextual AI Assistant)
-* **Data Modeling & Analytics:** Microsoft Excel / Google Sheets (Advanced Formulas, Dynamic Arrays, Conditional Logic Charts)
-* **Documentation & Audit:** Structured Markdown & Technical Documentation Standartları
+## Architectural Modules: Ne İşe Yarar & Nasıl Kullanılır?
+
+Dökümantasyon, karmaşık iş arama ve mülakat hazırlık süreçlerini yığın oluşumuna izin vermeden 4 ana fonksiyonel modüle ayırır:
+
+### Module 1: Transferable Skills & Career Identity Matrix
+*   **Ne İşe Yarar:** Kişinin geçmiş yaşam, akademik ve teknik deneyimlerini ham veriden çıkarıp, hedef pozisyonun diline tercüme eder.
+*   **Nasıl Kullanılır:** Obsidian içindeki notlar, işverenlerin odaklandığı *Skill-Based Hiring* trendlerine uygun olarak yapılandırılmıştır. *Transferable Skills* (Aktarılabilir Beceriler) analizi yapılarak, ham yetkinlikler hedef roldeki *Stakeholder Management* ve *Process Modeling* gibi ihtiyaçlarla eşleştirilir[cite: 1, 2, 4]. Bu modülün çıktısı, kariyerin kuzey yıldızı olan **Career Identity Statement** (Kariyer Kimliği Beyanı) dökümanını besler[cite: 2].
+
+### Module 2: Strategic Resume Tailoring & Marketing Stratejisi
+*   **Ne İşe Yarar:** Özgeçmişi geçmişin bir dökümü olmaktan çıkarıp, adayın değer teklifini sunan dinamik bir *Pazarlama Belgesi* haline getirir[cite: 2].
+*   **Nasıl Kullanılır:** Notlar içerisindeki **X-Y-Z Formülü** `[X: Başarı/Eylem] + [Y: Ölçülebilir Sonuç/Veri] + [Z: Kullanılan Yöntem/Beceri]` şablonları işletilerek, özgeçmiş maddeleri ve ön yazılar (*Cover Letters*) her iş ilanına özel olarak *ATS-Friendly* (ATS Uyumlu) şekilde *tailor* edilir (yeniden haritalandırılır)[cite: 1, 2, 3].
+
+### Module 3: Information Management & Application Tracking
+*   **Ne İşe Yarar:** İş arama sürecindeki veri hatlarını ve açık pozisyonları yapılandırılmış bir düzende kontrol altında tutar.
+*   **Nasıl Kullanılır:** İlişkisel veri tabanı mantığıyla çalışan *E-Sheet* tablosundaki veri sütunları (`Application Status`, `Company Name`, `Job Description Keyword Vectors`, `Notes`) ile entegre çalışır. Sürecin siber güvenliği, *Data Privacy (KVKK/GDPR)* protokolleri kapsamında hassas verilerin maskelenmesiyle proaktif olarak yönetilir.
+
+### Module 4: Advanced Interview Hardening & STAR Simulation
+*   **Ne İşe Yarar:** Adayı *Davranışsal (Behavioral)*, *Teknik (Technical)*, *Vaka Analizi (Case Analysis)* ve *Panel* mülakat formatlarına karşı kusursuz bir hazır bulunuşluk seviyesine taşır.
+*   **Nasıl Kullanılır:** Mülakat hazırlığı sürecinde **NotebookLM** ve **Gemini Live** üzerinde işletilecek gelişmiş *Prompt Engineering* (İstem Mühendisliği) kalıplarını barındırır.
 
 ---
 
-## Applied Methodologies (The Unicorn Framework)
+## Deep Dive: Job Search & Interview Süreçlerinde Modüler Hazırlık Algoritması
 
-### X-Y-Z Metrics Deployment
-* **Optimized Information Management Architecture:** Engineered a multi-modular career governance framework using *Advanced Prompt Engineering* and *Structured E-Sheet Data Modeling*, reducing administrative overhead in opportunity pipelines by **40%**.
-* **ATS & Behavioral Performance Hardening:** Systematized interview simulation response logic utilizing the **STAR Metodu** across 5 distinct strategic vectors, increasing quantitative delivery readiness scores by **30%**.
-* **Proactive Risk Management Workflow:** Developed and integrated *Data Masking* and *Anonymization protocols* into open-source templates, achieving **100% data privacy (KVKK/GDPR compliance)** during third-party LLM data validation loops.
+Bu dökümantasyon sistemini kullanarak bir mülakata sıfır hata payıyla hazırlanmak için şu modüler akış uygulanır:
 
----
+```text
+[Hedef İş İlanı + Şirket Raporları] ──> Yükleme ──> [NotebookLM Kaynak Havuzu]
+                                                               │
+[Özel STAR Yanıt Şablonları] <── Üretim <── Chat & SSS <───────┤
+                                                               │
+[Mobil Alıştırma Dünyası] <── İndirme <── [Audio Overview] <───┘
+Context Grounding (Bağlam Sabitleme): İlgili iş ilanı metni, şirket finansal analiz raporları ve endüstri trendleri NotebookLM platformuna "Source" (Kaynak) olarak yüklenir.
 
-## ⚙️ How to Use the Template
+Kişiselleştirilmiş Öğrenme: Kişinin deponun içindeki sterilize edilmiş özgeçmiş ve başarı anekdotları sisteme enjekte edilir.
 
-1. **Clone the Repository:**
-```bash
-   git clone [https://github.com/your-username/ai-powered-job-search-decision-support-framework.git](https://github.com/your-username/ai-powered-job-search-decision-support-framework.git)
+STAR Generation (Cevap Yapılandırma): Gelişmiş istem kütüphanesi formülleri kullanılarak, NotebookLM'den hedeflenen role özgü 3-4 adet güçlü STAR (Situation, Task, Action, Result) yanıt şablonu üretilmesi istenir.
+
+Audio Overview Deployment (Sesli Strateji): Bilgilerin hareket halindeyken de içselleştirilmesi ve mülakat stresinin parametrik olarak düşürülmesi için sistemden bir Sesli Özet (Podcast) üretilir ve indirilerek dinlenir[cite: 2].
+
+Post-Interview Protocol (Mülakat Sonrası Süreç): Mülakat bittiğinde, adayların %95'inin yapmadığı takip iletişimi tetiklenir; Gemini yardımıyla "Neden Yazıyorum + Değer Teklifi + Nezaketle Kapatış" formülüne uygun 300 karakter altı kişiselleştirilmiş Outreach ve teşekkür mesajları ağa fırlatılır[cite: 1, 2].
